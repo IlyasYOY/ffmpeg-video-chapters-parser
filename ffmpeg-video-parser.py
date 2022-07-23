@@ -26,7 +26,7 @@ class ChapterInfo(NamedTuple):
 
 def main():
     """
-    Basic imlementation was borrowed from 
+    Basic implementation was borrowed from 
     https://gist.github.com/dcondrey/469e2850e7f88ac198e8c3ff111bda7c
     """
     options = _parse_command_line_options()
@@ -58,7 +58,6 @@ def find_chapters_in_file(filename: str) -> List[ChapterInfo]:
 
     matches = re.findall(
         r'.*Chapter #(\d+:\d+): start (\d+\.\d+), end (\d+\.\d+)\s*\n\s*Metadata:\n\s*title\s*:\s*(.*)\n', output)
-    print(f'I found {len(matches)}')
 
     return _convert_ffmpeg_response(matches)
 

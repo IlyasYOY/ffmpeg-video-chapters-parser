@@ -26,3 +26,5 @@ Then you can use it like this:
 ```
 
 Good luck using it! 
+
+PS. This work is mainly a fork of [this](https://github.com/IlyasYOY/ffmpeg-video-chapters-parser).

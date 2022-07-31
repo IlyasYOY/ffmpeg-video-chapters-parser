@@ -27,4 +27,4 @@ Then you can use it like this:
 
 Good luck using it! 
 
-PS. This work is mainly a fork of [this](https://github.com/IlyasYOY/ffmpeg-video-chapters-parser).
+PS. This work is mainly a fork of [this](https://gist.github.com/dcondrey/469e2850e7f88ac198e8c3ff111bda7c).

@@ -32,7 +32,7 @@ def main():
     options = _parse_command_line_options()
     chapters = find_chapters_in_file(options.infile)
 
-    chapters_result = '\n'.join(
+    chapters_result = '  \n'.join(
         chapter.duration_representation + ' ' + chapter.name for chapter in chapters)
 
     print(chapters_result)

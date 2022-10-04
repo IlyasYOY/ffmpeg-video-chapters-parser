@@ -160,3 +160,5 @@ cython_debug/
 #.idea/
 .vim
 .vscode
+
+.DB_Store

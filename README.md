@@ -28,3 +28,5 @@ Then you can use it like this:
 Good luck using it! 
 
 PS. This work is mainly a fork of [this](https://gist.github.com/dcondrey/469e2850e7f88ac198e8c3ff111bda7c).
+
+UPD. Now you can simply run the script. UI will show up and you will be able to select a file to generate desctiption from.
